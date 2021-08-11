@@ -128,7 +128,7 @@ let iNo = tenName.indexOf('h')
 let iNo2 = tenName.indexOf('h')
 
 console.log(iNo)
-console.log(iNo2)
+console.log(iNo2) 
 
 let hb = tenName.indexOf('h',2)
 console.log(hb)
@@ -136,3 +136,120 @@ console.log(hb)
 // Methods
 //1) Methods perform some action 
 //2) Method returns something
+
+
+console.log('------')
+
+let fruit = "Grapes"
+ //   0 1 2 3 4 5
+//    G r a p e s
+
+let hs = fruit.indexOf('ry')
+console.log(hs)
+
+
+let fruits = "apple grapes banana mango"
+let userInput  = "grapes"
+let indexF =  fruits.indexOf(userInput)
+if(indexF >= 0){
+    console.log('Fruit is available')
+}
+else {
+    console.log('Fruit not available')
+}
+
+
+let fruitA = "apple"
+console.log(fruitA[0].toUpperCase()+fruitA.slice(1,))
+
+// let rss= fruits.split(" ")
+// console.log(rss)
+
+// // Slice 
+
+// let textOne = "chinmay"
+
+// //Action to get the substring
+// // It returns me another string 
+// //textOne.slice(start,end) 
+
+// 0  1  2  3  4  5  6 
+// C  H  I  N  M  A  Y
+//-7 -6 -5 -4 -3 -2 -1
+            
+
+
+let textTwo = "chinmay"
+let textTwoB = textTwo.slice(4,7)
+let textTwoC = textTwo.slice(0,4)
+console.log(textTwoB)
+console.log(textTwoC)
+
+console.log(textTwo.slice(-6,-1))
+console.log(textTwo.slice(-6,-3))
+console.log(textTwo.slice(-5,5))
+console.log(textTwo.slice(5))
+console.log(textTwo.slice(5,-5))
+
+
+// Substring 
+// toUpperCase(),toLowerCase(), indexOf, slice
+
+// 0 1 2 3 4
+// M A N G O
+
+let textThree = "Mango"
+
+ //0123456789---
+ //Mango Grapes Chiku
+// let hh = textThree.substring(1,3)
+// console.log(hh)
+
+// let hy = textThree.substr(3)
+// console.log(hy)
+
+
+// replace
+let textFour = "I am learning python"
+let textFourB = textFour.replace("python","javascript")
+console.log(textFourB)
+
+
+//url ----- "http://reacst.studo/login"
+//concat()
+
+
+let textFive = "amol"
+let textSix = "rao"
+//console.log(textFive+textSix)
+console.log(textFive.concat(textSix))
+
+
+let textSeven = " chinmay deshpande "
+console.log(textSeven.length)  // 19
+console.log(textSeven.trim().length) // 17
+
+
+//charAt
+let textNine = "NewWords"
+console.log(textNine.charAt(3))
+
+
+
+
+// let h = ["chinmay","amol","amit"]
+// for(let i = 0 ; i < h.length ; i++){
+//     console.log(h[i].concat(' Welcome!'))
+// }
+
+
+
+
+
+
+
+
+
+
+
+
