@@ -215,24 +215,30 @@ let textFourB = textFour.replace("python","javascript")
 console.log(textFourB)
 
 
-//url ----- "http://reacst.studo/login"
-//concat()
-
-
 let textFive = "amol"
 let textSix = "rao"
 //console.log(textFive+textSix)
 console.log(textFive.concat(textSix))
+console.log(textSix.concat(" "+textFive))
 
-
-let textSeven = " chinmay deshpande "
+let textSeven = " chinmay deshpande maya "
 console.log(textSeven.length)  // 19
 console.log(textSeven.trim().length) // 17
 
-
+textSeven.indexOf('a',textSeven.indexOf('a')+1)
 //charAt
 let textNine = "NewWords"
 console.log(textNine.charAt(3))
+console.log(textSix.concat(" "+textFive))
+
+
+
+
+
+
+
+
+
 
 
 
@@ -244,12 +250,21 @@ console.log(textNine.charAt(3))
 
 
 
+// let s =  "chinmay maya"
+// let t = []
+
+// for(let i = 0 ; i < s.length ;i++){
+//     if(s[i]=='a'){
+//         t.push(i)
+//     }
+// }
+
+// console.log(t)
 
 
-
-
-
-
+let jx = "123 Abc 123 Abc wwww Abc"
+let yx = jx.lastIndexOf('Abc')
+console.log(yx)
 
 
 
