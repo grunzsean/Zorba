@@ -101,7 +101,6 @@ console.log(country)
 //Action
 // Return 
 
-
 let country = ["nepal","india","pakistan","bhutan"]
 let ee = country.push("usa").toUpperCase()
 console.log(ee)
@@ -109,9 +108,7 @@ console.log(country)
 
 
 
-
-
-
+// map filter reduce find findindex
 
 // Action  - adding the element at last 
 // Return  - number
